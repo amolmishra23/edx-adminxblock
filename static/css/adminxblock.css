@@ -1,0 +1,202 @@
+/*css to be applied throughout the page*/
+*{
+    font: normal normal bold 16px/1 "Times New Roman", Times, serif;
+    color: #020e16;
+}
+
+
+
+
+/*css to be applied specifically to the heading element*/
+#zz{
+    font: normal normal bold 40px/1 "Times New Roman", Times, serif;
+    color: #020e16;
+    padding: 0px 0px 0px 0px;
+}
+
+
+
+
+/*css applied to the buttons. their design entirely and also special effect on hover*/
+#b1 {
+      background: #3498db;
+      background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+      background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+      background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+      background-image: -o-linear-gradient(top, #3498db, #2980b9);
+      background-image: linear-gradient(to bottom, #3498db, #2980b9);
+      -webkit-border-radius: 16;
+      -moz-border-radius: 16;
+      border-radius: 16px;
+      color: #ffffff;
+      font-size: 20px;
+      padding: 5px 10px 5px 10px;
+      text-decoration: none;
+}
+
+#b1:hover {
+      background: #3cb0fd;
+      background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+      text-decoration: none;
+}
+
+#b2 {
+      background: #3498db;
+      background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+      background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+      background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+      background-image: -o-linear-gradient(top, #3498db, #2980b9);
+      background-image: linear-gradient(to bottom, #3498db, #2980b9);
+      -webkit-border-radius: 16;
+      -moz-border-radius: 16;
+      border-radius: 16px;
+      color: #ffffff;
+      font-size: 20px;
+      padding: 5px 10px 5px 10px;
+      text-decoration: none;
+}
+
+#b2:hover {
+      background: #3cb0fd;
+      background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+      text-decoration: none;
+}
+
+#b3 {
+      background: #3498db;
+      background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+      background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+      background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+      background-image: -o-linear-gradient(top, #3498db, #2980b9);
+      background-image: linear-gradient(to bottom, #3498db, #2980b9);
+      -webkit-border-radius: 16;
+      -moz-border-radius: 16;
+      border-radius: 16px;
+      color: #ffffff;
+      font-size: 20px;
+      padding: 5px 10px 5px 10px;
+      text-decoration: none;
+}
+
+#b3:hover {
+      background: #3cb0fd;
+      background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+      text-decoration: none;
+}
+
+
+
+
+/*below css is entirely for the sake of radio buttons special effects*/
+@keyframes click-wave {
+      0% {
+            height: 40px;
+            width: 40px;
+            opacity: 0.35;
+            position: relative;
+      }
+      100% {
+            height: 200px;
+            width: 200px;
+            margin-left: -80px;
+            margin-top: -80px;
+            opacity: 0;
+      }
+}
+
+.option-input {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -ms-appearance: none;
+      -o-appearance: none;
+      appearance: none;
+      position: relative;
+      top: 13.33333px;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      height: 30px;
+      width: 30px;
+      transition: all 0.15s ease-out 0s;
+      background: #cbd1d8;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      margin-right: 0.5rem;
+      outline: none;
+      position: relative;
+      z-index: 1000;
+}
+
+.option-input:hover {
+      background: #9faab7;
+}
+.option-input:checked {
+      background: #3498db;
+}
+.option-input:checked::before {
+      height: 30px;
+      width: 30px;
+      position: absolute;
+      content: '✔';
+      display: inline-block;
+      font-size: 26.66667px;
+      text-align: center;
+      line-height: 30px;
+}
+.option-input:checked::after {
+      -webkit-animation: click-wave 0.65s;
+      -moz-animation: click-wave 0.65s;
+      animation: click-wave 0.65s;
+      background: #3498db;
+      content: '';
+      display: block;
+      position: relative;
+      z-index: 100;
+}
+.option-input.radio {
+      border-radius: 50%;
+}
+.option-input.radio::after {
+      border-radius: 50%;
+}
+
+
+
+
+/*Css for the text field in the sub option page, which we come to once we select our option*/
+.enjoy-css {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 5px 10px;
+  border: 1px solid #b7b7b7;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font: normal 20px/normal "Times New Roman", Times, serif;
+  color: rgba(1,7,10,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgba(252,252,252,1);
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
