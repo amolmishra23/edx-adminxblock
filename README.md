@@ -13,4 +13,4 @@ Operations currently supported by the XBlock:
 - Deleting a course.
 
 This XBlock can be imported into any course in edx. And all the system administrator's frequently performed tasks can be done with ease.  
-For detailed project report please refer to the link : https://drive.google.com/file/d/0B9TCAG7AVugiSnYzNFVqbFRleXc/view?usp=sharing
+For detailed project report please refer to the [link](https://drive.google.com/file/d/0B9TCAG7AVugiSnYzNFVqbFRleXc/view?usp=sharing)
