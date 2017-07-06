@@ -1,0 +1,12 @@
+adminxblock/__init__.py
+adminxblock/adminxblock.py
+adminxblock/static/README.txt
+adminxblock/static/css/adminxblock.css
+adminxblock/static/html/adminxblock.html
+adminxblock/static/js/src/adminxblock.js
+adminxblock_xblock.egg-info/PKG-INFO
+adminxblock_xblock.egg-info/SOURCES.txt
+adminxblock_xblock.egg-info/dependency_links.txt
+adminxblock_xblock.egg-info/entry_points.txt
+adminxblock_xblock.egg-info/requires.txt
+adminxblock_xblock.egg-info/top_level.txt
