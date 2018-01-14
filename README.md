@@ -13,3 +13,13 @@ Operations currently supported by the XBlock:
 - [Deleting a course](https://github.com/amolmishra23/edx-adminxblock/wiki/Deleting-a-course)
 
 For detailed project report please refer to the [link](https://github.com/amolmishra23/edx-adminxblock/wiki/Asset-collections-command)
+
+Sample screenshots of the project:
+
+![](https://i.imgur.com/cTh6Zxt.jpg)
+
+![](https://i.imgur.com/u4kkkH9.jpg)
+
+![](https://i.imgur.com/o7WvCKW.jpg)
+
+![](https://i.imgur.com/mUFqsjE.jpg)
